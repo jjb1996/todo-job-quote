@@ -9,7 +9,7 @@ To run :
 ### Pre-req
 1. Docker installed
 ### Running
-1. Ensure you copy the repo, and ensure you copy the .env-example to .env. (in this example I've used the DB creds from docker just so save you entering it..)
+1. Ensure you copy the repo, and ensure you copy the .env-example to .env in the /src folder (in this example I've used the DB creds from docker just so save you entering it.. would not do this irl) 
 2. Go to the root of the project and run `docker compose up`
 3. Let the containers build
 4. One the containers boot, exec into the php container using GUI or `docker exec -it` and run `npm run build` 
