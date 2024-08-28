@@ -1,0 +1,18 @@
+.bg-white {
+    background: #fff;
+}
+.d-inline {
+    display: inline-block
+}
+.float-right {
+    float: right;
+}
+.line-through {
+    text-decoration: line-through;
+}
+.td-min {
+    width: 1%;
+}
+.shadow {
+    box-shadow: 0 1px 2px 0 rgb(0 0 0 / 0.15);
+}

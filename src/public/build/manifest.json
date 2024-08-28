@@ -1,0 +1,29 @@
+{
+  "assets/logo.png": {
+    "file": "assets/logo.b1a4c0dc.png",
+    "src": "assets/logo.png"
+  },
+  "resources/js/app.js": {
+    "file": "assets/app.198c7b3c.js",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "dynamicImports": [
+      "_lodash.09630b64.js",
+      "node_modules/axios/index.js"
+    ]
+  },
+  "_lodash.09630b64.js": {
+    "file": "assets/lodash.09630b64.js",
+    "isDynamicEntry": true
+  },
+  "node_modules/axios/index.js": {
+    "file": "assets/index.5433dc5e.js",
+    "src": "node_modules/axios/index.js",
+    "isDynamicEntry": true
+  },
+  "resources/css/app.css": {
+    "file": "assets/app.d69a2d64.css",
+    "src": "resources/css/app.css",
+    "isEntry": true
+  }
+}
