@@ -15,7 +15,7 @@ To run :
 2. in the build/docker/mysql folder, change `.env-example` to `.env`
 3. Go to the root of the project and run `docker compose up`
 4. Let the containers build
-5. Once the containers boot, exec into the php container using GUI or `docker exec -it [container id] sh` (php_laravel containe) and run `composer update --ignore-platform-reqs` for the vendor files,  AND `npm run build` this will ensure the vite logo asset is built.
+5. Once the containers boot, exec into the php container using GUI or `docker exec -it [container id] sh` (php_laravel container) and run `composer update --ignore-platform-reqs` for the vendor files,  AND `npm run build` this will ensure the vite logo asset is built.
 6. Ensure you run php artisan key:generate
 7. Run php artisan migrate - this will create the DB for us.
 8. You're good to go! Inspect!  - It will be hosted on port 8009, so for example `http://127.0.0.1:8009/` 
