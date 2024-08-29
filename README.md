@@ -1,5 +1,5 @@
 ##  To-DO - Instructions
-Real simple TODO app using old boostrap 3.4.1 - uses a resource controller and pagination basics.
+Real simple TODO app using old bootstrap 3.4.1 - uses a resource controller and pagination basics.
 Also added a Trait just as an example - rather than try/catching in each of the functions.
 To test the error validation, you could easily inspect element and on task delete change the id to something like 9999
 
