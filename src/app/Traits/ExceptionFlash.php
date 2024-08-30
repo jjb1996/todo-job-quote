@@ -10,7 +10,7 @@ trait ExceptionFlash {
 
 
     /**
-     * Used for easily catching an exception caused by Closure, and returning a flash response;
+     * Used for easily catching an exception caused by Closure, and passes message into session for feedback.;
      * @param Closure $function
      * @param Request $request
      * @param string $message
